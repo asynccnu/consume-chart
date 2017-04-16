@@ -1,0 +1,17 @@
+{
+  "name": "consume-chart",
+  "version": "1.0.0",
+  "description": "consume chart in ccnubox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MFE",
+  "license": "ISC",
+  "dependencies": {
+    "extract-text-webpack-plugin": "^2.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.0"
+  }
+}
