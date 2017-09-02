@@ -170,7 +170,7 @@
       chart.point().position('time*sum').size(2).color('#fff');
       chart.point().position('time*sum').shape('image');
       data.forEach(function(obj, index) {
-          chart.guide().html([obj.time, obj.sum], `<div style='color: #289bf0;font-size:12px'><span>￥${obj.sum}</span></div>`, {
+          chart.guide().html([obj.time, obj.sum], `<div style='color: #289bf0;font-size:12px'><span>￥${obj.sum.toFixed(1)}</span></div>`, {
             align: 'cc',
             offset: [0,-16],
           });
